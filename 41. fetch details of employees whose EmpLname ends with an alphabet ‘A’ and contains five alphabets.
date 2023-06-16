@@ -1,0 +1,1 @@
+Select * from EmployeeInfo where EmpLname LIKE '____a';

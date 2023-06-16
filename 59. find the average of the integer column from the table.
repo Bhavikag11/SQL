@@ -1,0 +1,1 @@
+Select avg(Stu_Marks) from Student;  

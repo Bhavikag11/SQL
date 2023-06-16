@@ -1,0 +1,4 @@
+//first record
+Select * from EmployeeInfo where EmpID = (select min(EmpID) from EmployeeInfo);
+//last record
+Select * from EmployeeInfo where EmpID = (select max(EmpID) from EmployeeInfo);

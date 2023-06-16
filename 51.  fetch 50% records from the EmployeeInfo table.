@@ -1,0 +1,2 @@
+Select * from EmployeeInfo 
+where EmpID <= (select count(EmpID)/2 from EmployeeInfo);

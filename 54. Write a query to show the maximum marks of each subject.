@@ -1,0 +1,3 @@
+Select Student_ID, Stu_Subject_ID, max(Stu_Marks) 
+from Student
+group by Stu_Subject_ID;  

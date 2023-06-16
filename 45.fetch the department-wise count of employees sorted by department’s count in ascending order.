@@ -1,0 +1,3 @@
+Select Department, count(EmpID) as EmpDeptCount 
+from EmployeeInfo group by  Department 
+order by  EmpDeptCount asc;

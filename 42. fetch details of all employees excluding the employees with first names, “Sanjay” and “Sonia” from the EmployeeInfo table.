@@ -1,0 +1,2 @@
+Select * from EmployeeInfo
+where EmpFname not in ('Sanjay','Sonia');

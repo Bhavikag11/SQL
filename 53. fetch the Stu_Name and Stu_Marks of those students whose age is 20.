@@ -1,0 +1,1 @@
+Select Stu_Name, Stu_Marks from Student where Stu_Age = 20;  

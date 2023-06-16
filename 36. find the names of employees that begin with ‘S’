@@ -1,0 +1,1 @@
+Select * from EmployeeInfo where EmpFname like 'S%';

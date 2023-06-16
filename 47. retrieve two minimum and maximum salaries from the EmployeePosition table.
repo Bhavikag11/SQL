@@ -1,0 +1,9 @@
+//minimum salaries
+select salary from employeeposition
+order by salary
+limit 2
+
+//maximum salaries
+select salary from employeeposition
+order by salary desc
+limit 2 

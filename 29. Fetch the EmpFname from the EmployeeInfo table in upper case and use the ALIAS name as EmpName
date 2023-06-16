@@ -1,0 +1,1 @@
+select upper(EmpFname) as EmpName from EmployeeInfo;

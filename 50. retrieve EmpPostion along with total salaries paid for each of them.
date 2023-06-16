@@ -1,0 +1,3 @@
+Select EmpPosition, sum(Salary)
+from EmployeePosition
+group by EmpPosition;

@@ -1,0 +1,1 @@
+Select * from EmployeePosition where Salary between '50000' and '100000';

@@ -1,0 +1,2 @@
+Select * from Student 
+where Stu_Marks > 82 and Stu_Age = 22;  

@@ -1,0 +1,2 @@
+Select Stu_Subject_ID count(Stu_Subject_ID) as 'Number of Students'
+from Student group by Stu_Subject_ID ; 

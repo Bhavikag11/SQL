@@ -1,0 +1,3 @@
+Select Stu_Name, Stu_Subject_ID from Student 
+minus
+select Stu_Name, Stu_Subject_ID from Student2;  

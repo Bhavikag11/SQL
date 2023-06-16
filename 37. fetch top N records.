@@ -1,0 +1,3 @@
+Select * from EmpPosition 
+order by Salary desc 
+limit N;

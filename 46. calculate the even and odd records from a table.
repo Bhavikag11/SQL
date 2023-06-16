@@ -1,0 +1,3 @@
+//even records
+Select EmpID from (SELECT rowno, EmpID from EmployeeInfo)
+where MOD(rowno,2)=0;

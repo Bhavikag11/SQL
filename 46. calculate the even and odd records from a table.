@@ -1,3 +1,7 @@
 //even records
-Select EmpID from (SELECT rowno, EmpID from EmployeeInfo)
-where MOD(rowno,2)=0;
+Select EmpID from (select rowno, EmpID from EmployeeInfo)
+where mod(rowno,2)=0;
+
+//odd records
+Select EmpID from (select rowno, EmpID from EmployeeInfo)
+where mod(rowno,2)=1;

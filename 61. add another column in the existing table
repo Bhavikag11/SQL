@@ -1,0 +1,1 @@
+Alter table Student add Stu_Address varchar (25) ;  

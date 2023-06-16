@@ -1,0 +1,4 @@
+Select DEPARTMENT, count(EmpID) as 'EmpNo' 
+from EmployeeInfo
+group by DEPARTMENT 
+having count(EmpD) < 2;

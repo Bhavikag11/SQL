@@ -1,0 +1,1 @@
+Select Concat(EmpFname, ' ', EmpLname) as 'FullName' from EmployeeInfo;
